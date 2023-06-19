@@ -1,0 +1,34 @@
+{
+  "name": "openai-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "DEBUG=api_lib_commons:*,api_lib_pds:*,api_lib_vault:*,api_lib_file:*,api_lib_db:*,api_pds:*,api_file:*,api_file_ip:*,api_vault:*,api_db:*,api_openai:* next dev",
+    "oai_build": "next build",
+    "oai_start": "next start"
+  },
+  "dependencies": {
+    "chromadb": "^1.4.1",
+    "formidable": "^2.1.1",
+    "buffer": "^6.0.3",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "net": "^1.0.2",
+    "next": "^13.3.0",
+    "openai": "^3.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "stream": "^0.0.2",
+    "url": "^0.11.0",
+    "util": "^0.12.5",
+    "zlib": "^1.0.5",
+    "debug": "^4.3.4",
+    "dsd-constants-lib": "^3.7.20",
+    "dsd-common-lib": "^3.7.20",
+    "request": "^2.88.2",
+    "secp256k1": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.6.0"
+  }
+}
